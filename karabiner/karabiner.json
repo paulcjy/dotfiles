@@ -45,8 +45,10 @@
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "key_code": "left_control" }],
-                                "to_after_key_up": [{ "select_input_source": { "language": "en" } }],
-                                "to_if_alone": [{ "key_code": "escape" }],
+                                "to_if_alone": [
+                                    { "key_code": "escape" },
+                                    { "select_input_source": { "language": "en" } }
+                                ],
                                 "type": "basic"
                             }
                         ]
