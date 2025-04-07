@@ -1,0 +1,170 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.4",
+  "schemes" : [
+    {
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "preventDefault"
+            }
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 5
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.3,
+        "disableAcceleration" : false,
+        "speed" : 0.15
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xc52b",
+          "productName" : "USB Receiver",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc534",
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 5
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0xb020",
+          "vendorID" : "0x46d",
+          "productName" : "MX Vertical",
+          "serialNumber" : "1FB6FBA16C6E36E0",
+          "category" : "mouse"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 5
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "auto"
+            },
+            "shift" : {
+              "type" : "preventDefault"
+            }
+          }
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "de.rme-audio.TotalmixFX",
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xb020",
+          "productName" : "MX Vertical",
+          "category" : "mouse",
+          "serialNumber" : "1FB6FBA16C6E36E0"
+        }
+      },
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 2
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "modifiers" : {
+          "vertical" : {
+            "shift" : {
+              "type" : "preventDefault"
+            },
+            "command" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 2
+        },
+        "modifiers" : {
+          "vertical" : {
+            "shift" : {
+              "type" : "preventDefault"
+            },
+            "command" : {
+              "type" : "preventDefault"
+            }
+          }
+        }
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xb020",
+          "productName" : "MX Vertical",
+          "serialNumber" : "1FB6FBA16C6E36E0",
+          "vendorID" : "0x46d",
+          "category" : "mouse"
+        },
+        "app" : "com.microsoft.VSCode"
+      }
+    },
+    {
+      "scrolling" : {
+        "distance" : {
+          "vertical" : 1,
+          "horizontal" : "9.3px"
+        },
+        "acceleration" : 1,
+        "speed" : 0
+      },
+      "if" : {
+        "device" : {
+          "productName" : "MX Master 3S",
+          "vendorID" : "0x46d",
+          "productID" : "0xb034",
+          "serialNumber" : "5BD435EA",
+          "category" : "mouse"
+        }
+      }
+    }
+  ]
+}

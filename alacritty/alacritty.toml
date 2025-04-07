@@ -1,0 +1,25 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
+[env]
+LANG = "en_US.UTF-8"
+LC_ALL = "en_US.UTF-8"
+
+[font]
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[window]
+option_as_alt="Both"
